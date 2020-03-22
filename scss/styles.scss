@@ -1,0 +1,12 @@
+// commons imports
+@use "colors";
+@use "fonts";
+@use "responsive_mixins";
+@use "typography";
+
+// external imports
+
+h1 {
+    color: colors.$primary_dark();
+    font-family: fonts.$main_font();
+}
