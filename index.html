@@ -3,11 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MAS Locações</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
-    <script src="js\main.js"></script>
+    
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6813957f24.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <h1>Hello World! Web Projects</h1>
+    
+    <id="page-wrapper">
+        <div id="topo"></div>
+        <header id="header">
+            <a id="logo-anchor" class="nav-link" href="#">
+                <div class="logo">
+                    <img id="header-img"
+                    src="https://cdn.discordapp.com/attachments/675783954946719745/682230939631353896/MAS_-_WhiteScafold_PNG_crop.png"
+                    alt="original company logo" />
+                    <div class="logo-text">
+                        <ul class="ul-logo-text">
+                            <li class="li-logo-text">Locação de Andaimes</li>
+                            <li class="li-logo-text">e Equipamentos</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+                </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav-button"><a class="nav-link" href="#empresa">Empresa</a></li>
+                    <li class="nav-button"><a class="nav-link" href="#produtos">Produtos</a></li>
+                    <li class="nav-button"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container"></div>
+        <section id="main-content">
+            <h2>Oferecemos o que você precisa na hora que você precisa.</h2>
+            <a href="tel:0113781-4696" target="_blank">
+                <div class="call-button">
+                    <div class="call-icon"><i class="fa fa-2x fa-mobile-alt"></i></div>
+                    <div class="call-text">Ligue Agora</div>
+                </div>
+            </a>
+        </section>
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-thumbs-o-up"></i></div>
+                    <div class="desc">
+                        <h2>Materiais de Qualidade</h2>
+                        <p>
+                            A qualidade de nossos produtos prioriza sua segurança, sem perder a eficiência da montagem e
+                            instalação.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="desc">
+                        <h2>Entrega Rápida</h2>
+                        <p>
+                            Entregamos sua solução de forma rápida e eficiente. Atendemos São Paulo Capital e Região
+                            Metropolitana.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-handshake-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Atendimento Especializado</h2>
+                        <p>
+                            Atendimento consultivo para identificarmos a melhor solução "custo benefício" para sua obra,
+                            experimente.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <a class="anchor" id="empresa"></a>
+            <section id="how-it-works">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/N6wmKHQiNXo?rel=0"
+                    frameborder="0" allowfullscreen></iframe>
+            </section>
+            <a class="anchor" id="produtos"></a>
+            <section id="pricing">
+                <div class="product" id="tenor">
+                    <div class="level">Andaimes</div>
+                    <ol>
+                        <li onClick="reply_click('myImg01')"><img id="myImg01" alt="Andaime Tubular"
+                                src="https://www.galaxcms.com.br/imgs_crud_comum/1591/Andaime-Tubular-20171030122137.jpg"
+                                hidden>Andaime Tubular</li>
+                        <li onClick="reply_click('myImg02')"><img id="myImg02" alt="Piso Metálico"
+                                src="https://www.furosteel.com.br/images/servicos/piso-metalico-industrial.jpg"
+                                hidden>Piso Metálico</li>
+                        <li onClick="reply_click('myImg03')"><img id="myImg03" alt="Sapata Fixa"
+                                src="https://www.casadoconstrutor.com.br/wp-content/uploads/2018/07/sapata-fixa.jpg"
+                                hidden>Sapata Fixa</li>
+                        <li onClick="reply_click('myImg04')"><img id="myImg04" alt="Sapata Ajustável"
+                                src="https://amapaloc.com.br/wp-content/uploads/2019/05/Sapata-Ajust%C3%A1vel-1024x1024.jpg"
+                                hidden>Sapata Ajustável</li>
+                    </ol>
+                </div>
+                <div class="product" id="bass">
+                    <div class="level">Escoras</div>
+                    <ol>
+                        <li onClick="reply_click('myImg05')"><img id="myImg05" alt="Escora Metálica Leve"
+                                src="https://www.fcequipamentos.com.br/wp-content/uploads/2018/11/escora-metalica-800x800.jpg"
+                                hidden>Metálica Leve</li>
+                        <li onClick="reply_click('myImg06')"><img id="myImg06" alt="Escora Ajustável"
+                                src="https://www.lokan.com.br/wp-content/uploads/2014/10/escora-metalica-locacao-lokan-bauru.jpg"
+                                hidden>Ajustáveis</li>
+                        <li onClick="reply_click('myImg07')"><img id="myImg07" alt="Elemento de Ligação"
+                                src="https://emporiodoconstrutor.com.br/wp-content/uploads/2015/09/diagonal_2120mm_85126825_0001_600x600.jpg"
+                                hidden>Elemento de Ligação</li>
+                    </ol>
+                </div>
+                <div class="product" id="valve">
+                    <div class="level">Equipamentos</div>
+                    <ol>
+                        <li onClick="reply_click('myImg08')"><img id="myImg08" alt="Martelete"
+                                src="https://static3.tcdn.com.br/img/img_prod/469103/martelete_demolidor_gsh_27_vc_2000w_220v_1147415_1_20160607140353_20160719111057.jpg"
+                                hidden>Martelete</li>
+                        <li onClick="reply_click('myImg09')"><img id="myImg09" alt="Betoneira"
+                                src="https://www.falamart.com.br/wp-content/uploads/2019/08/trabalhador-obra-betoneiras-CSM-Capa-1068x640.jpg"
+                                hidden>Betoneira</li>
+                    </ol>
+                </div>
+            </section>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            <a href="tel:0113781-4696" target="_blank"><button onclick="topFunction()" id="myBtn" title="Go to top"><i
+                        class="fa fa-2x fa-mobile-alt"></i></button></a>
+            <a class="anchor" id="contato"></a>
+            <h1 id="entre-em-contato">Entre em Contato</h1>
+            <form class="cf" action="https://formspree.io/mrgkpeqw" method="POST">
+                <div class="half left cf">
+                    <input type="text" id="input-name" name="nome" placeholder="Nome">
+                    <input type="email" id="input-email" name="email" placeholder="E-mail">
+                    <input type="tel" id="input-phone" name="telefone" placeholder="Telefone">
+                </div>
+                <div class="half right cf">
+                    <textarea name="message" type="text" id="input-message" name="mensagem"
+                        placeholder="Mensagem"></textarea>
+                </div>
+                <input type="submit" value="Enviar" id="input-submit">
+            </form>
+            <footer>
+                <span>Studio Wave</span>
+            </footer>
+        </div>
+        </div>
+        <script src="js\main.js"></script>
 </body>
 </html>
