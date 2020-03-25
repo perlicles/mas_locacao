@@ -51,6 +51,10 @@ body {
   color: var(--body-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 #page-wrapper {
   position: relative;
 }
@@ -72,19 +76,19 @@ header {
   background-color: var(--header-background-color);
   width: 100%;
   z-index: 50;
+  display: none;
 }
 
-#topo {
+.topo-social {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   width: 100%;
   height: 20px;
-  background-color: #fafafa;
+  background-color: #eee;
   margin-top: 0px;
-  padding-top: 0px;
+  padding-top: 5px;
+  z-index: 49;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border: dashed 1px red;
 }
 
@@ -145,15 +149,16 @@ header {
       justify-content: space-around;
   height: 50px;
   line-height: 50px;
+  list-style: none;
 }
 
-.nav-button {
-  list-style: none;
+#nav-bar a {
   width: 33%;
   display: table;
+  margin-right: 5px;
 }
 
-a {
+.nav-link {
   color: var(--menu-color);
   font-family: var(--menu-font-family);
   text-decoration: none;
@@ -170,9 +175,9 @@ a {
 }
 
 .anchor {
-  display: blick;
+  display: block;
   position: relative;
-  top: -50px;
+  top: -70px;
   visibility: hidden;
 }
 
