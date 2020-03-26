@@ -21,16 +21,20 @@ span.onclick = function () {
     modal.style.display = "none";
 }
 
-var mybutton = document.getElementById("myBtn");
+var myButtonTel = document.getElementById("myBtnTel");
+var myButtonWhats = document.getElementById("myBtnWhats");
 
 // When the user scrolls down 20px from the top of the document, show the button 
 window.onscroll = function () { scrollFunction(); navShadownOnScroll(); };
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
+        myButtonTel.style.display = "block";
+        myButtonWhats.style.display = "block";
+
     } else {
-        mybutton.style.display = "none";
+        myButtonTel.style.display = "none";
+        myButtonWhats.style.display = "none";
     }
 }
 
